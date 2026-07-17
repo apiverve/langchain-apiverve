@@ -16,8 +16,10 @@ from langchain_core.callbacks import CallbackManagerForToolRun
 from langchain_apiverve.client import APIVerveClient
 
 
-# Schema source URL - always fetched fresh at init
-SCHEMA_URL = "https://api.apiverve.com/publicapis/mcp-schemas.json"
+# Schema source URL - always fetched fresh at init.
+# Served from assets, not api.apiverve.com/publicapis/ — that path 404s, which made every
+# toolkit init raise and shipped langchain-apiverve 0.1.0 unable to load a single tool.
+SCHEMA_URL = "https://assets.apiverve.com/mcp-schemas.json"
 
 # Module-level cache for schemas (persists for the lifetime of the process)
 _schemas_cache: Optional[Dict] = None
