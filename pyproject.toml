@@ -4,8 +4,8 @@ build-backend = "poetry.core.masonry.api"
 
 [project]
 name = "langchain-apiverve"
-version = "0.1.0"
-description = "LangChain integration for APIVerve - Access 310+ utility APIs for AI agents"
+version = "0.2.0"
+description = "LangChain integration for APIVerve - Access 356+ utility APIs for AI agents"
 readme = "README.md"
 authors = [
     {name = "APIVerve", email = "hello@apiverve.com"}
@@ -60,8 +60,8 @@ Issues = "https://github.com/apiverve/langchain-apiverve/issues"
 
 [tool.poetry]
 name = "langchain-apiverve"
-version = "0.1.0"
-description = "LangChain integration for APIVerve - Access 310+ utility APIs for AI agents"
+version = "0.2.0"
+description = "LangChain integration for APIVerve - Access 356+ utility APIs for AI agents"
 authors = ["APIVerve <hello@apiverve.com>"]
 license = "MIT"
 readme = "README.md"
