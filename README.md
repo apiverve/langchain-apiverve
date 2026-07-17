@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![LangChain](https://img.shields.io/badge/LangChain-Integration-blue)](https://python.langchain.com/)
 
-**LangChain integration for [APIVerve](https://apiverve.com)** - Access 310+ utility APIs for AI agents and LLM applications.
+**LangChain integration for [APIVerve](https://apiverve.com)** - Access 356+ utility APIs for AI agents and LLM applications.
 
 Build powerful AI agents with access to validation, conversion, generation, analysis, and lookup APIs.
 
@@ -13,8 +13,8 @@ Build powerful AI agents with access to validation, conversion, generation, anal
 
 ## Features
 
-- **310+ APIs** - Email validation, DNS lookup, IP geolocation, QR codes, currency conversion, and more
-- **29 Categories** - Data Lookup, News, Domain Data, Data Conversion, Entertainment, and more
+- **356+ APIs** - Email validation, DNS lookup, IP geolocation, QR codes, currency conversion, and more
+- **29 Categories** - Text Processing, Data Generation, Games, Entertainment, Calendar, and more
 - **LangChain Native** - Works with any LangChain agent or chain
 - **Type Safe** - Full Pydantic schemas for inputs and outputs
 - **Async Support** - Both sync and async API calls
@@ -136,20 +136,20 @@ asyncio.run(main())
 
 ## Available APIs
 
-APIVerve provides 310+ APIs across 29 categories:
+APIVerve provides 356+ APIs across 29 categories:
 
 | Category | APIs | Examples |
 |----------|------|----------|
-| **Data Lookup** | 15 | World Time, Thesaurus, Emoji Lookup |
-| **News** | 1 | World News |
-| **Domain Data** | 15 | DNS Lookup, WHOIS Lookup, SSL Certificate Checker |
-| **Data Conversion** | 32 | Unit Converter, Number to Words, Words to Numbers |
-| **Entertainment** | 24 | Chuck Norris Jokes, Historical Events, Random Facts |
-| **Weather** | 8 | Air Quality, Marine Weather, Weather |
-| **Science** | 4 | Meteorite Landings, Stars Lookup, Periodic Table |
-| **Finance** | 13 | Mortgage Calculator, Loan Calculator, Currency Symbols |
-| **Transportation** | 4 | Airports Lookup, Airline Lookup, Car Models |
-| **Data Generation** | 32 | Baby Name Generator, Random Word, Random User Generator |
+| **Text Processing** | 45 | Acronym Expander, Anagram Detector, Antonym Finder |
+| **Data Generation** | 32 | Acronym Generator, Baby Name Generator, Barcode Generator |
+| **Games** | 21 | Acrostic Puzzle Generator, Anagram Puzzle Generator, Card Deck Shuffler |
+| **Entertainment** | 24 | Advice Generator, Bucket List, Charades Generator |
+| **Calendar** | 5 | Age Calculator, Date Calculator, Liturgical Calendar |
+| **Transportation** | 5 | Airline Lookup, Airport Code Converter, Airport Distance |
+| **Weather** | 8 | Air Quality, Worldwide Earthquakes, Marine Weather |
+| **AI/Computer Vision** | 6 | Article Ideas Generator, Code Detector, Image Caption |
+| **Data Conversion** | 33 | ASCII85 Encoder, Base64 Encoder/Decoder, Color Converter |
+| **Data Lookup** | 17 | ASN Lookup, Bible, Country Calling Code |
 
 [Browse all APIs →](https://apiverve.com/marketplace)
 
@@ -245,4 +245,4 @@ mypy src/
 
 MIT License - see [LICENSE](LICENSE) for details.
 
-Copyright (c) 2025 [APIVerve](https://apiverve.com)
+Copyright (c) 2026 [APIVerve](https://apiverve.com)
