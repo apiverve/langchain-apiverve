@@ -58,7 +58,7 @@ class APIVerveClient:
             self._session.headers.update({
                 "x-api-key": self.api_key,
                 "Accept": "application/json",
-                "User-Agent": "langchain-apiverve/0.2.0",
+                "User-Agent": "langchain-apiverve/0.2.1",
             })
         return self._session
 
