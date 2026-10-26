@@ -19,7 +19,7 @@ For more information, see: https://docs.apiverve.com
 from langchain_apiverve.toolkit import APIVerveToolkit, DynamicAPIVerveTool, load_api_schemas
 from langchain_apiverve.client import APIVerveClient, APIVerveError
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 __all__ = [
     "APIVerveToolkit",

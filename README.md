@@ -14,7 +14,7 @@ Build powerful AI agents with access to validation, conversion, generation, anal
 ## Features
 
 - **387+ APIs** - Email validation, DNS lookup, IP geolocation, QR codes, currency conversion, and more
-- **30 Categories** - Text Processing, Data Generation, Games, Entertainment, Calendar, and more
+- **29 Categories** - Text Processing, Data Generation, Games, Entertainment, Calendar, and more
 - **LangChain Native** - Works with any LangChain agent or chain
 - **Type Safe** - Full Pydantic schemas for inputs and outputs
 - **Async Support** - Both sync and async API calls
@@ -136,7 +136,7 @@ asyncio.run(main())
 
 ## Available APIs
 
-APIVerve provides 387+ APIs across 30 categories:
+APIVerve provides 387+ APIs across 29 categories:
 
 | Category | APIs | Examples |
 |----------|------|----------|
@@ -149,7 +149,7 @@ APIVerve provides 387+ APIs across 30 categories:
 | **Weather** | 9 | Air Quality, Worldwide Earthquakes, Marine Weather |
 | **AI/Computer Vision** | 6 | Article Ideas Generator, Code Detector, Image Caption |
 | **Data Conversion** | 33 | ASCII85 Encoder, Base64 Encoder/Decoder, Color Converter |
-| **Data Lookup** | 17 | ASN Lookup, Bible, Country Calling Code |
+| **Data Lookup** | 19 | ASN Lookup, Bible, Country Calling Code |
 
 [Browse all APIs →](https://apiverve.com/marketplace)
 
