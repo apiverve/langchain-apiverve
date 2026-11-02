@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![LangChain](https://img.shields.io/badge/LangChain-Integration-blue)](https://python.langchain.com/)
 
-**LangChain integration for [APIVerve](https://apiverve.com)** - Access 387+ utility APIs for AI agents and LLM applications.
+**LangChain integration for [APIVerve](https://apiverve.com)** - Access 388+ utility APIs for AI agents and LLM applications.
 
 Build powerful AI agents with access to validation, conversion, generation, analysis, and lookup APIs.
 
@@ -13,7 +13,7 @@ Build powerful AI agents with access to validation, conversion, generation, anal
 
 ## Features
 
-- **387+ APIs** - Email validation, DNS lookup, IP geolocation, QR codes, currency conversion, and more
+- **388+ APIs** - Email validation, DNS lookup, IP geolocation, QR codes, currency conversion, and more
 - **29 Categories** - Text Processing, Data Generation, Games, Entertainment, Calendar, and more
 - **LangChain Native** - Works with any LangChain agent or chain
 - **Type Safe** - Full Pydantic schemas for inputs and outputs
@@ -136,7 +136,7 @@ asyncio.run(main())
 
 ## Available APIs
 
-APIVerve provides 387+ APIs across 29 categories:
+APIVerve provides 388+ APIs across 29 categories:
 
 | Category | APIs | Examples |
 |----------|------|----------|
